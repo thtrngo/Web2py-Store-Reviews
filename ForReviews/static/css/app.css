@@ -1,0 +1,118 @@
+.all-products {
+    padding: 20px;
+}
+
+.product-container {
+    text-align: center;
+    background-color: lightgray;
+    border: 1px solid black;
+    padding: 10px 20px;
+    width: 800px;
+    margin-bottom: 20px;
+}
+
+.product-name {
+    font-style: italic;
+    font-size: 25px;
+}
+
+.move-right {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.reviews-button {
+    border: none;
+    border: 1px solid black;
+    background-color: lightgray;
+    padding: 5px 10px;
+    transition: 0.5s all;
+    color: black;
+}
+
+.space-apart {
+    display: flex;
+    justify-content: space-between;
+}
+
+.reviews-button:hover {
+    cursor: pointer;
+    background-color: gray;
+}
+
+.reviews-button:focus {
+    outline: none;
+}
+
+.reviews-section {
+    background-color: rgb(192, 240, 247);
+    padding: 15px;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.your-review {
+    display: inline-block;
+    height: 250px;
+}
+
+.your-review-title {
+    text-align: left;
+    font-weight: bold;
+    font-size: 17px;
+    margin-left: 55px;
+}
+
+.save-button {
+    border: none;
+    border: 1px solid black;
+    color:black;
+    background-color: lightblue;
+    padding: 5px 10px;
+    transition: 0.5s all;
+    margin-right: 55px;
+}
+
+.stars-row {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.stars-row-modified {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    position: relative;
+    bottom: 20px;
+}
+
+.review-body {
+    width: 350px;
+    height: 150px;
+    resize: none;
+    border: none;
+}
+
+.other-review-title {
+    text-align: left;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.other-review-name {
+    text-align: left;
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 15px;
+}
+
+.other-review-body {
+    text-align: left;
+    font-size: 14px;
+}
